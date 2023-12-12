@@ -1,4 +1,4 @@
-module github.com/bertusk/kernel-rpi-os-32-snd
+module github.com/bertusk/kernel-rpi-os-32
 
 go 1.21.1
 
