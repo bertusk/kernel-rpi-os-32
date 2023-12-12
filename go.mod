@@ -1,7 +1,8 @@
-module github.com/gokrazy-community/kernel-rpi-os-32
+module github.com/bertusk/kernel-rpi-os-32
 
-go 1.18
+go 1.21.1
 
-require github.com/magefile/mage v1.13.0
-
-require github.com/ulikunitz/xz v0.5.11 // indirect
+require (
+	github.com/magefile/mage v1.15.0
+	github.com/ulikunitz/xz v0.5.11
+)

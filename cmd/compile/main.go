@@ -94,6 +94,21 @@ func run() error {
 		"--set-val", "BT_BCM", "m",
 		"--set-val", "BT_HCIUART", "m",
 		"--set-val", "BT_HCIUART_BCM", "y",
+
+		// Enable raspberry pi 1 audio/sound
+		"--set-val", "SOUND", "y",
+		"--set-val", "SND", "y",
+		"--set-val", "SND_TIMER", "y",
+		"--set-val", "SND_PCM", "y",
+		"--set-val", "SND_PCM_ELD", "y",
+		"--set-val", "SND_HDA_PREALLOC_SIZE", "64",
+		"--set-val", "SND_SPI", "y",
+		"--set-val", "SND_USB", "y",
+		"--set-val", "SND_SOC", "y",
+		"--set-val", "SND_SOC_GENERIC_DMAENGINE_PCM", "y",
+		"--set-val", "SND_DRIVERS", "y",
+		"--set-val", "SND_SOC_I2C_AND_SPI", "y",
+		"--set-val", "SND_BCM2835", "y",
 	}
 
 	if err := dockerRun(args...); err != nil {

@@ -5,3 +5,5 @@ enable_uart=0
 kernel=vmlinuz
 
 disable_splash=1
+
+dtparam=audio=on
