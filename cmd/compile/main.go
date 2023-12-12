@@ -108,7 +108,20 @@ func run() error {
 		"--set-val", "SND_SOC_GENERIC_DMAENGINE_PCM", "y",
 		"--set-val", "SND_DRIVERS", "y",
 		"--set-val", "SND_SOC_I2C_AND_SPI", "y",
+		"--set-val", "BCM_VIDEOCORE", "y",
+		"--set-val", "BCM2835_VCHIQ", "y",
 		"--set-val", "SND_BCM2835", "y",
+		"--set-val", "SND_SUPPORT_OLD_API", "y",
+		"--set-val", "SND_PROC_FS", "y",
+		"--set-val", "SND_VERBOSE_PROCFS", "y",
+		"--set-val", "SND_JACK", "y",
+		"--set-val", "SND_JACK_INPUT_DEV", "y",
+		"--set-val", "SND_PCI", "y",
+		"--set-val", "SND_SOC_AK4613", "m",
+		"--set-val", "SND_SOC_DMIC", "m",
+		"--set-val", "SND_SIMPLE_CARD_UTILS", "m",
+		"--set-val", "SND_SIMPLE_CARD", "m",
+		"--set-val", "SND_AUDIO_GRAPH_CARD", "m",
 	}
 
 	if err := dockerRun(args...); err != nil {

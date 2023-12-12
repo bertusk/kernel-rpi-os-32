@@ -11,4 +11,9 @@ kernel/drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.ko
 kernel/drivers/net/wireless/broadcom/brcm80211/brcmfmac/brcmfmac.ko
 kernel/drivers/bluetooth/hci_uart.ko
 kernel/drivers/bluetooth/btbcm.ko
+kernel/sound/soc/codecs/snd-soc-ak4613.ko
+kernel/sound/soc/codecs/snd-soc-dmic.ko
+kernel/sound/soc/generic/snd-soc-simple-card-utils.ko
+kernel/sound/soc/generic/snd-soc-simple-card.ko
+kernel/sound/soc/generic/snd-soc-audio-graph-card.ko
 kernel/net/bluetooth/bluetooth.ko
