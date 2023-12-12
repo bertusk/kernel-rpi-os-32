@@ -93,9 +93,6 @@ alias of:N*T*Cbrcm,bcm4329-btC* hci_uart
 alias of:N*T*Cbrcm,bcm4329-bt hci_uart
 alias of:N*T*Cbrcm,bcm20702a1C* hci_uart
 alias of:N*T*Cbrcm,bcm20702a1 hci_uart
-alias i2c:ak4613 snd_soc_ak4613
-alias of:N*T*Casahi-kasei,ak4613C* snd_soc_ak4613
-alias of:N*T*Casahi-kasei,ak4613 snd_soc_ak4613
 alias platform:dmic-codec snd_soc_dmic
 alias of:N*T*Cdmic-codecC* snd_soc_dmic
 alias of:N*T*Cdmic-codec snd_soc_dmic
